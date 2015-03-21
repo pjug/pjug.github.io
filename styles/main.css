@@ -1,0 +1,114 @@
+body {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+a:link {
+  color: #442200;
+}
+
+a:hover {
+  color: #807060;
+}
+
+a:visited {
+  color: #442200;
+}
+
+#sidebar {
+  float: left;
+  vertical-align: top;
+  color: #442200;
+  width: 190px;
+  background: #EBDAC6;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+#content {
+  float: left;
+}
+
+h1 {
+  color: #602020;
+  border-bottom: 3px solid #804040;
+  padding-bottom: 3px;
+}
+
+h2 {
+  color: #602020;
+}
+
+.speaker {
+  color: #442200;
+  font-size: 24px;
+}
+
+.speakerHeader {
+  color: red;
+  font-size: 24px;
+}
+
+.speakerContent {
+  color: #442200;
+  padding-left: 20px;
+}
+
+.prev {
+  color: #442200;
+  border-top: 3px solid #EBDAC6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  z-index: 1;
+}
+
+.prevTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.prevSpeaker {
+  font-size: 18px;
+}
+
+.prevContent {
+  padding-top: 10px;
+}
+
+a {
+  /* override the bootstrap default for now */
+  text-decoration: underline;
+}
+
+.prevLinks a {
+  margin-right: 5px;
+}
+
+.container {
+  max-width: 970px;
+}
+
+@media screen and (min-width: 768px) {
+  #main {
+    overflow: hidden;
+  }
+  #sidebar {
+    padding-bottom: 1000px;
+    margin-bottom: -1000px;
+  }
+  #content {
+    margin-left: 40px;
+    width: 486px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #content {
+    width: 710px;
+  }
+}
+
+a {
+  word-wrap: break-word;
+}

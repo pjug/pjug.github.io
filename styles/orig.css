@@ -1,0 +1,278 @@
+body {
+  margin: 4px;
+  color: black;
+  background: white;
+}
+
+table {
+  width: 100%;
+  margin: 0;
+}
+
+table td {
+  padding: 0;
+  border-width: 0;
+  vertical-align: top;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+a:link {
+  color: #442200;
+}
+
+a:hover {
+  color: #807060;
+}
+
+a:visited {
+  color: #442200;
+}
+
+td#title {
+  vertical-align: bottom;
+  color: #442200;
+  font: bold 200% Arial, Helvetica, Verdana, sans-serif;
+  border-width: 0;
+  padding: .1em;
+}
+
+td#advert {
+  width: 234px;
+  font: bold 0.7em Arial, Helvetica, Verdana, sans-serif;
+  text-align: center;
+}
+
+img {
+  border-width: 0;
+}
+
+#content-top td {
+  vertical-align: middle;
+  color: white;
+  font-weight: bold;
+  padding: 0.1em 0.2em 0;
+}
+
+tr td#sidetop {
+  background: #663300;
+  font: bold 115% Arial, Helvetica, Verdana, sans-serif;
+}
+
+tr td#crumbs {
+  background: #997753;
+  font-size: 85%;
+}
+
+tr td#crumbs a:link {
+  color: white;
+}
+
+tr td#crumbs a:visited {
+  color: gray;
+}
+
+td#leftside {
+  color: #442200;
+  float: left;
+  width: 145px;
+  height: 420px;
+  background: #EBDAC6;
+  margin: 50px 0px 0px 0px;
+}
+
+td#leftside td {
+  border-bottom: 0px solid #A98763;
+  font-size: 85%;
+  padding: 0 0 1px 0.33em;
+}
+
+td#leftside table {
+  margin-top: 3px;
+}
+
+td#content {
+  padding: 17px 42px;
+}
+
+td#content p {
+  font: 85% Arial, Helvetica, Verdana, sans-serif;
+}
+
+h1 {
+  font: bold 150% Arial, Helvetica, Verdana, sans-serif;
+  color: #602020;
+  width: 80%;
+  border-bottom: 3px solid #804040;
+  padding-bottom: 3px;
+}
+
+div.pullquote {
+  float: right;
+  width: 140px;
+  color: #442200;
+  border: solid #908070;
+  border-width: 7px 0;
+  font: bold 1em Arial, Helvetica, Verdana, sans-serif;
+  padding: 3px 2px;
+  margin: 1px 7px;
+}
+
+div.pullquote2 {
+  float: right;
+  width: 200px;
+  color: #442200;
+  border: 3px solid #804040;
+  font: bold 1em Arial, Helvetica, Verdana, sans-serif;
+  background: #EBDAC6;
+  text-align: left;
+  margin-top: 1.5em;
+  padding: 3px;
+  font-size: 86%;
+}
+
+tr#footer td {
+  vertical-align: middle;
+  font-size: 66%;
+  border-top: 3px solid #EBDAC6;
+}
+
+td#rightside {
+  width: 150px;
+}
+
+td#rightside td {
+  font-size: 66%;
+  padding: 1px;
+}
+
+td.head {
+  background: #D6B58C;
+  text-align: center;
+  font-weight: bold;
+}
+
+td#rightside th {
+  font-size: 85%;
+  padding: 2px;
+  background: #774411;
+  color: white;
+}
+
+tr.even td {
+  background: #F7F0E7;
+  width: 50%;
+}
+
+td.r3 {
+  color: #660;
+}
+
+td.r5 {
+  color: #060;
+}
+
+p.bold {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+p.bold_center {
+  font-size: 120%;
+  font-weight: bold;
+  text-align: center;
+}
+
+td#feedback {
+  text-align: center;
+  padding: 0.2em;
+  background: #EBDAC6;
+}
+
+tr#footer td#tg {
+  font-size: 85%;
+  text-align: center;
+}
+
+td#copyright {
+  text-align: right;
+  font-style: italic;
+  color: #999;
+}
+
+.speaker {
+  color: #442200;
+  font: 1.2em "bitstream vera sans", "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  display: inline;
+  padding_top: 50px;
+}
+
+.speakerHeader {
+  color: red;
+  font: 1.2em "bitstream vera sans", "Trebuchet MS", sans-serif;
+  display: inline;
+  padding_top: 50px;
+}
+
+.speakerContent {
+  color: #442200;
+  font: 0.9em "bitstream vera sans", "Trebuchet MS", sans-serif;
+  width: 450px;
+  padding-left: 20px;
+  display: block;
+}
+
+.video {
+  color: #442200;
+  font: 0.7em "bitstream vera sans", "Trebuchet MS", sans-serif;
+  width: 450px;
+  padding-left: 20px;
+  display: block;
+}
+
+.prev {
+  color: #442200;
+  border-top: 3px solid #EBDAC6;
+  margin_top: 120px;
+  padding_bottom: 12px;
+  margin_left: 20px;
+  padding_left: 20px;
+  text-align: left;
+  width: 100%;
+  z-index: 1;
+}
+
+.prevTitle {
+  font: 1.3em "bitstream vera sans", "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  display: inline;
+  padding_top: 5px;
+  padding_right: 5px;
+}
+
+.prevSpeaker {
+  font: 1.1em "bitstream vera sans", "Trebuchet MS", sans-serif;
+  display: inline;
+  padding_left: 5px;
+}
+
+.prevContent {
+  font: 0.9em "bitstream vera sans", "Trebuchet MS", sans-serif;
+  padding_top: 10px;
+  width: 650px;
+}
+
+.sidebar {
+  color: #442200;
+  font: 1.1em "bitstream vera sans", "Trebuchet MS", sans-serif;
+}
+
+.sidebarSmall {
+  color: #442200;
+  font: 0.9em "bitstream vera sans", "Trebuchet MS", sans-serif;
+}
+
+.sidebarTiny {
+  color: #FF2200;
+  font-size: .01em;
+}
